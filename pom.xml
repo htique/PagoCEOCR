@@ -331,9 +331,9 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
+           <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <!-- latest version (2.20.1) does not work well with JUnit5 -->
+                <!-- latest version (2.20.1) does not work well with JUnit5 --> 
                 <version>2.19.1</version>
                 <dependencies>
                     <dependency>
@@ -348,6 +348,17 @@
                     </dependency>
                 </dependencies>
             </plugin>
+            
+		
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.7.0</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		
         </plugins>
     </build>
 
