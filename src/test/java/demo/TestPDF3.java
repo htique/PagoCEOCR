@@ -339,7 +339,7 @@ public class TestPDF3 {
 								}
 							}
 
-							String fileName = (directorio + resultados);
+/*							String fileName = (directorio + resultados);
 					        Set<String> list = new HashSet<String>();
 					        Path path = Paths.get(fileName);
 					        
@@ -363,7 +363,7 @@ public class TestPDF3 {
 					            out.newLine();
 					        }
 					        out.close();
-
+*/
 				        }
 					}
 				}
